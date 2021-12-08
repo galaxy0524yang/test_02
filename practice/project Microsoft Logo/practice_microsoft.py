@@ -2,49 +2,61 @@
 
 import turtle
 
+White = '#FFFFFF'
+OrangeRed = '#F25022'
+Green = '#7FBA00'
+Blue = '#00A4EF'
+Yellow = '#FFB900'
+
 #左上
 turtle.penup()
 turtle.goto(-180,180)
 turtle.pendown()
 
-a = 0
-while a < 4:
-    turtle.forward(165)
+turtle.color(White, OrangeRed)
+turtle.begin_fill()
+for a in range(4):
+    turtle.forward(170)
     turtle.right(90)
-    a += 1
+turtle.end_fill()
 
 #右上
 turtle.penup()
 turtle.goto(15,180)
 turtle.pendown()
 
-a = 0
-while a < 4:
-    turtle.forward(165)
+turtle.color(White, Green)
+turtle.begin_fill()
+for a in range(4):
+    turtle.forward(170)
     turtle.right(90)
-    a += 1
+turtle.end_fill()
 
 #左下
 turtle.penup()
 turtle.goto(-180,-15)
 turtle.pendown()
 
-a = 0
-while a < 4:
-    turtle.forward(165)
+turtle.color(White, Blue)
+turtle.begin_fill()
+for a in range(4):
+    turtle.forward(170)
     turtle.right(90)
-    a += 1
+turtle.end_fill()
+
 
 #右下
 turtle.penup()
 turtle.goto(15,-15)
 turtle.pendown()
 
-a = 0
-while a < 4:
-    turtle.forward(165)
+turtle.color(White, Yellow)
+turtle.begin_fill()
+for a in range(4):
+    turtle.forward(170)
     turtle.right(90)
-    a += 1
+turtle.end_fill()
+
 
 # #外枠
 # turtle.penup()
