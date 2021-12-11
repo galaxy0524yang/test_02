@@ -1,6 +1,7 @@
 # マイクロソフト ロゴ 練習
 
 from turtle import *
+setup(1000, 1000, 0, 0)
 
 White = "#FFFFFF"
 OrangeRed = '#F25022'
